@@ -27,6 +27,7 @@ defmodule DieScheiteWebApi.MixProject do
   defp deps do
     [
       {:confex, "~> 3.4.0"},
+      {:distillery, "~> 2.1.0", runtime: false},
       {:ex_json_schema, "~> 0.6.1"},
       {:jason, "~> 1.1.0"},
       {:plug, "~> 1.7"},
